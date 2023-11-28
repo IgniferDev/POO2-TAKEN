@@ -66,7 +66,8 @@ public class Taken extends javax.swing.JFrame {
         });
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 102, 51), 4));
+        jPanel1.setBackground(new java.awt.Color(204, 255, 255));
+        jPanel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 153, 255), 4));
 
         jLabel1.setFont(new java.awt.Font("Segoe UI Black", 1, 48)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -86,11 +87,12 @@ public class Taken extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(27, 27, 27)
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(32, Short.MAX_VALUE))
+                .addContainerGap(12, Short.MAX_VALUE))
         );
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 840, 110));
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 840, 90));
 
+        jPanel2.setBackground(new java.awt.Color(153, 153, 153));
         jPanel2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 102, 51), 4));
 
         jButton1.setFont(new java.awt.Font("Segoe UI Black", 0, 18)); // NOI18N
@@ -288,13 +290,15 @@ public class Taken extends javax.swing.JFrame {
                     .addComponent(jButton14, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButton15, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButton16, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(64, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 130, 490, 540));
+        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 130, 490, 480));
 
+        jPanel4.setBackground(new java.awt.Color(204, 255, 255));
         jPanel4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 102, 51), 4));
 
+        periferico.setBackground(new java.awt.Color(204, 204, 255));
         periferico.setFont(new java.awt.Font("Segoe UI Black", 0, 18)); // NOI18N
         periferico.setText("Periferico");
         periferico.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 51, 51), 3));
@@ -304,6 +308,7 @@ public class Taken extends javax.swing.JFrame {
             }
         });
 
+        reiniciar.setBackground(new java.awt.Color(255, 51, 51));
         reiniciar.setFont(new java.awt.Font("Segoe UI Black", 0, 18)); // NOI18N
         reiniciar.setText("Reinicio");
         reiniciar.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 51, 51), 3));
@@ -313,6 +318,7 @@ public class Taken extends javax.swing.JFrame {
             }
         });
 
+        espiral.setBackground(new java.awt.Color(204, 204, 255));
         espiral.setFont(new java.awt.Font("Segoe UI Black", 0, 18)); // NOI18N
         espiral.setText("Espiral");
         espiral.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 51, 51), 3));
@@ -322,6 +328,7 @@ public class Taken extends javax.swing.JFrame {
             }
         });
 
+        imposible.setBackground(new java.awt.Color(204, 204, 255));
         imposible.setFont(new java.awt.Font("Segoe UI Black", 0, 18)); // NOI18N
         imposible.setText("Imposible");
         imposible.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 51, 51), 3));
@@ -331,6 +338,7 @@ public class Taken extends javax.swing.JFrame {
             }
         });
 
+        vertical.setBackground(new java.awt.Color(204, 204, 255));
         vertical.setFont(new java.awt.Font("Segoe UI Black", 0, 18)); // NOI18N
         vertical.setText("Vertical");
         vertical.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 51, 51), 3));
@@ -340,6 +348,7 @@ public class Taken extends javax.swing.JFrame {
             }
         });
 
+        jLabel4.setBackground(new java.awt.Color(255, 255, 255));
         jLabel4.setFont(new java.awt.Font("Segoe UI Black", 2, 18)); // NOI18N
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel4.setText("Soluciones");
@@ -349,6 +358,7 @@ public class Taken extends javax.swing.JFrame {
         jLabel2.setText("Clicks");
         jLabel2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 255), 3));
 
+        NumClicks.setBackground(new java.awt.Color(255, 255, 255));
         NumClicks.setFont(new java.awt.Font("Segoe UI Black", 1, 48)); // NOI18N
         NumClicks.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         NumClicks.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 255), 3));
@@ -370,19 +380,19 @@ public class Taken extends javax.swing.JFrame {
                             .addComponent(vertical, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(jPanel4Layout.createSequentialGroup()
-                        .addGap(0, 8, Short.MAX_VALUE)
+                        .addGap(0, 0, Short.MAX_VALUE)
                         .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(NumClicks, javax.swing.GroupLayout.PREFERRED_SIZE, 123, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(14, 14, 14))))
-            .addGroup(jPanel4Layout.createSequentialGroup()
-                .addGap(52, 52, 52)
-                .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 172, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(reiniciar, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(72, 72, 72))
+            .addGroup(jPanel4Layout.createSequentialGroup()
+                .addGap(45, 45, 45)
+                .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 172, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -401,12 +411,12 @@ public class Taken extends javax.swing.JFrame {
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, 72, Short.MAX_VALUE)
                     .addComponent(NumClicks, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 31, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 11, Short.MAX_VALUE)
                 .addComponent(reiniciar, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
 
-        getContentPane().add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 130, 270, 540));
+        getContentPane().add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 110, 260, 520));
 
         pack();
         setLocationRelativeTo(null);
@@ -608,7 +618,7 @@ public class Taken extends javax.swing.JFrame {
     private void espiralActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_espiralActionPerformed
         // TODO add your handling code here:
         logica.espiral(jButton1, jButton2, jButton3, jButton4, jButton5, jButton6, jButton7, jButton8, jButton9, jButton10, jButton11, jButton12, jButton13, jButton14, jButton15, jButton16);
-        habilitador(false);
+        habilitador(true);
     }//GEN-LAST:event_espiralActionPerformed
 
     private void imposibleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_imposibleActionPerformed

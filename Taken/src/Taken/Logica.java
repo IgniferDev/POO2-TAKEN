@@ -4,9 +4,8 @@
  */
 package Taken;
 
-import java.util.Random;
+
 import javax.swing.JButton;
-import javax.swing.JOptionPane;
 
 
 /**
@@ -117,7 +116,8 @@ public class Logica {
         String s14 = b14.getText();
         String s15 = b15.getText();
         String s16 = b16.getText();
-        movimientos = movimientos+1;
+        
+        
         //CLASICO
        // if(s1 =="1" && s2=="2" && s3=="3" && s4=="4" &&
          //       s5=="5" && s6=="6" && s7=="7" && s8=="8" && 
@@ -161,6 +161,7 @@ public class Logica {
         if(ShuffleNumber == ""){
             boton2.setText(boton1.getText());
             boton1.setText("");
+            movimientos = movimientos+1;
         }
     }
     
@@ -188,7 +189,7 @@ public class Logica {
         b14.setText("14");
         b15.setText("15");
         b16.setText("");
-        setMovimientos(-1);
+        setMovimientos(0);
         
     }
     
